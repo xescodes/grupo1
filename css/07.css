@@ -1,0 +1,123 @@
+/* Importar fuente */
+@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+
+.contenedor {
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Viga", sans-serif;
+}
+
+h1 {
+  color: darkslateblue;
+  font-size: 3em;
+}
+
+h2 {
+  color: lightseagreen;
+  font-size: 2.5em;
+  margin: 20px 0 10px;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: darkmagenta;
+}
+
+a {
+  color: darkmagenta;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a,
+footer,
+th,
+caption {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  background-color: bisque;
+  padding: 10px;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: larger;
+}
+
+article {
+  margin: 0 0 50px;
+  padding: 25px;
+  background-color: lightblue;
+  border-bottom: 2px solid lightseagreen;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+table,
+tr,
+th,
+td {
+  padding: 7px 20px;
+  border: 2px solid lightseagreen;
+}
+
+caption,
+th {
+  margin: 10px;
+  color: darkcyan;
+}
+
+#logo {
+  width: 100px;
+}
+
+.imagen {
+  width: 300px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#cuerpo {
+    display: flex;
+    gap: 35px;
+}
+
+main {
+  flex-grow: 1;
+}
+
+aside {
+  margin-top: 25px;
+  min-width: 200px;
+  max-width: 250px;
+}
+
+.aside-img {
+  width: 200px;
+}
