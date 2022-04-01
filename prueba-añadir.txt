@@ -1,0 +1,1 @@
+Esto solo es una prueba para poner en práctica los conceptos básicos de git. Si todo ha ido bien este archivo debería estar en una rama
