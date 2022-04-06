@@ -42,7 +42,8 @@ a:hover {
 a,
 footer,
 th,
-caption {
+caption,
+nav {
   font-family: Arial, Helvetica, sans-serif;
 }
 
